@@ -18,6 +18,8 @@ nav {
   margin: -20px;
   padding-top: 17.5px;
   padding-left: 30px;
+  background-color: #FFFFFF;
+  z-index: 1;
 }
 
 .nav-logo {
@@ -50,9 +52,78 @@ nav {
 
 .intro {
   display: block;
-  background-image: url('../img/first-background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 750px;
-  margin-top: -60px;
+  position: relative;
+  height: 46em;
 }
+
+.intro-pic {
+  height: 100%;
+  margin-left: -1.0em;
+  z-index: -1;
+  margin-top: -2.0em;
+  margin-left: -6.5em;
+}
+
+.intro-content {
+  text-align: center;
+  position: absolute;
+  top: 38.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+}
+
+.intro-content h1 {
+  font-size: 3em;
+  font-weight: lighter;
+  margin-bottom: -0.2em;
+  padding-top: 70px;
+  text-align: bottom;
+  font-stretch: inherit;
+  letter-spacing: 0.01em;
+}
+
+.intro-content h3 {
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding: 0;
+  
+}
+
+.intro-content a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+  background-color: #F15A29;
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  margin-top: 1.0em;
+  border-radius: 0.3em;
+  font-size: 1.0em;
+  letter-spacing: 0.05em;
+  font-weight: lighter;
+}
+
+.middle {
+  text-align: center;
+  font-weight: lighter;
+
+}
+
+.middle h1 {
+}
+
+.middle li {
+  display: inline-block;
+
+}
+
+
+
+
+
+
+
