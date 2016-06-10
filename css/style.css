@@ -16,7 +16,7 @@ nav {
   height: 3.0em;
   z-index: 10;
   position: fixed;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav-container{
