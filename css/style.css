@@ -3,15 +3,18 @@
 body {
     background-color: white;
 }
-/*div {
-    border: 1px solid Chocolate;
-}*/
+
+/*
+
+NAVIGATION
+
+*/
 
 nav {
   width: 100%;
   padding: 1.0em;
   height: 3.0em;
-  z-index: 1;
+  z-index: 10;
   position: fixed;
 }
 
@@ -22,7 +25,7 @@ nav {
   padding-top: 17.5px;
   padding-left: 30px;
   background-color: #FFFFFF;
-  z-index: 1;
+  z-index: 10;
   padding-bottom: 0.7em;
   border-bottom: 1px solid #DDDDDD;
 }
@@ -58,10 +61,23 @@ nav {
   padding: 0em 0.8em 0em 0.9em;
 }
 
+.nav-links li:hover {
+  color: #4c5058;
+  cursor: pointer;
+}
+
 .active {
   color: #4c5058;
   font-weight: 500;
 }
+
+
+/*
+
+------- INTRODUCTION ---------
+
+*/
+
 
 .intro {
   display: block;
@@ -71,7 +87,7 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: -1.9em;
-  z-index: -1; 
+  z-index: -2; 
 }
 
 .intro-content {
@@ -86,7 +102,7 @@ nav {
 
 .intro-content h1 {
   font-size: 3em;
-  font-weight: lighter;
+  font-weight: 100;
   margin-bottom: -0.2em;
   padding-top: 70px;
   text-align: bottom;
@@ -96,9 +112,8 @@ nav {
 
 .intro-content h3 {
   font-size: 1.5em;
-  font-weight: lighter;
+  font-weight: 100;
   padding: 0;
-  
 }
 
 .intro-content a {
@@ -115,10 +130,23 @@ nav {
   font-size: 1.0em;
   letter-spacing: 0.05em;
   font-weight: lighter;
+  z-index: -1;
 }
 
+.intro-content a:hover {
+  background-color: #C74A22;
+}
+
+/*
+
+------- MIDDLE CONTENT ---------
+
+*/
+
+
+
 .middle {
-  margin-top: 2.0em;
+  margin-top: 3.0em;
   text-align: center;
   font-weight: lighter;
   font-size: 2.5em;
@@ -137,6 +165,14 @@ nav {
   font-size: 0.6em;
   position: center;
 }
+
+
+/*
+
+------- FOOTER ---------
+
+*/
+
 
 .footer {
   border-top: 1px black solid;
